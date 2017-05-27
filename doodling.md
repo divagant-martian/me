@@ -5,7 +5,7 @@
 - MSc. Information Engineering at Universidad de los Andes (2016 - Present)
 ## Teaching
 ### Uniandes
--
+
 - Teaching Assistant: Algorithmic and object-oriented programming ISIS-1204 (2011).
 - Teaching Assistant: Computational Physics FISI-2025 (2013).
 - Teaching Assistant: Computational Methods FISI-2028 (2014).
@@ -25,7 +25,7 @@
 ### Python
 - As a general purpose programming language.
 - Experience using Numpy, Pandas and PySpark for data processing.
-- Experience using Scikit-learn and Tensorflow for data modeling.
+- Experience using Scikit-learn and Tensorflow for machine learning.
 - Experience using Flask and Django for backend web development.
 ### C
 - Mainly for optimizing specific tasks in scientific programming.
@@ -36,7 +36,7 @@
 - Experience writing Python modules over CPython.
 - Done small contributions to Rust related projects like Servo, Cargo and Rust itself.
 ### JavaScript
-- Some experience using ReactJS and Redux for frontend web development.
+- Some experience using ReactJS for frontend web development.
 ### Java
 - As a general purpose programming language.
 - Some experience using Hadoop for data processing.
