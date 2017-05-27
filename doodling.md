@@ -4,12 +4,21 @@
 - BSc. Mathematics at Universidad de los Andes (2012 - Present)
 - MSc. Information Engineering at Universidad de los Andes (2016 - Present)
 ## Teaching
-- Here be dragons
+### Uniandes
+-
+- Teaching Assistant: Algorithmic and object-oriented programming ISIS-1204 (2011).
+- Teaching Assistant: Computational Physics FISI-2025 (2013).
+- Teaching Assistant: Computational Methods FISI-2028 (2014).
+- Teaching Assistant: Electromagnetism II FISI-3434 (2015).
+- Instructor: Integral Calculus MATE-1214C (2015).
+- Teaching Assistant: Computational Tools FISI-2026 (2016).
+- Teaching Assistant: Computational Methods FISI-2028 (2016).
+
 ## Publications
 - Quantifying and controlling biases in estimates of dark matter halo concentration. C. N. Poveda-Ruiz, J. E. Forero-Romero, and J. C. Muñoz-Cuartas. November 30 2016. The Astrophysical Journal, 832, 2.
 ## Conferences & Events
 # Work
-- Graduate Research Assistant at Alianza CAOBA Uniandes (2016 - Present)
+- Graduate Research Assistant at Alianza CAOBA Uniandes (2016 - Present).
 
 # Programming
 ## Languages
@@ -31,9 +40,8 @@
 ### Java
 - As a general purpose programming language.
 - Some experience using Hadoop for data processing.
-### Elixir
+### Elixir/Erlang
 - Basic understanding of the Erlang/OTP environment.
-- Some experience using Phoenix for web development.
 # Languages
 - Spanish (Native)
 - English (Fluent)
