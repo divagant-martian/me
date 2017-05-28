@@ -21,8 +21,8 @@
 - Assistant at Quinta Escuela de Física Matemática - Bogotá (Uniandes 2013).
 - Assistant at Workshop de Astronomía - Bogotá (Uniandes 2013).
 - Oral Presentation at IV Congreso Colombiano de Astronomía - Pasto (Udenar 2014).
-- First Mexican AstroCosmoStatistics School - Guanajuato (UGTO 2016).
-- XXIV Escuela de Verano en Física - Ciudad de México (UNAM 2016).
+- Scholarship assistant at First Mexican AstroCosmoStatistics School - Guanajuato (UGTO 2016).
+- Scholarship assistant at XXIV Escuela de Verano en Física - Ciudad de México (UNAM 2016).
 # Work
 - Graduate Research Assistant at Alianza CAOBA Uniandes (2016 - Present).
 
