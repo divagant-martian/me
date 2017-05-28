@@ -17,6 +17,12 @@
 ## Publications
 - Quantifying and controlling biases in estimates of dark matter halo concentration. C. N. Poveda-Ruiz, J. E. Forero-Romero, and J. C. Muñoz-Cuartas. November 30 2016. The Astrophysical Journal, 832, 2.
 ## Conferences & Events
+- Assistant at Workshop on Physics and Technology at CERN - Bogotá (UNAL 2010).
+- Assistant at Quinta Escuela de Física Matemática - Bogotá (Uniandes 2013).
+- Assistant at Workshop de Astronomía - Bogotá (Uniandes 2013).
+- Oral Presentation at IV Congreso Colombiano de Astronomía - Pasto (Udenar 2014).
+- First Mexican AstroCosmoStatistics School - Guanajuato (UGTO 2016).
+- XXIV Escuela de Verano en Física - Ciudad de México (UNAM 2016).
 # Work
 - Graduate Research Assistant at Alianza CAOBA Uniandes (2016 - Present).
 
@@ -41,7 +47,7 @@
 - As a general purpose programming language.
 - Some experience using Hadoop for data processing.
 ### Elixir/Erlang
-- Basic understanding of the Erlang/OTP environment.
+- Some experience using OTP for concurrency.
 # Languages
 - Spanish (Native)
 - English (Fluent)
