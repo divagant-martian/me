@@ -1,0 +1,39 @@
+Sobre Mi
+Ingeniera de Sistemas de la Universidad de los Andes. Apasionada por las matemáticas y sus aplicaciones. Orgullosa usuaria de Linux. Ciudadana preocupada por la educación en Colombia.
+
+Educación
+2012 - 2015, Universidad de los Andes
+Pregrado en Ingeniería de Sistemas y Computación
+
+Actividad Docente
+~ 2016-1, Métodos Computacionales
+  Monitoría en el Departamento de Física, Universidad de los Andes
+~ 2016-1, Cálculo Integral con Ecuaciones Diferenciales
+  Complementaria en el Departamento de Matemáticas,Universidad de los Andes
+~ 2015-1 2014-1/2 2013-1/2, Matemática Estructural y Lógica
+  Monitoría en el Departamento de Ingeniería de Sistemas y Computación,Universidad de los Andes
+~ 2012-2, Algorítmica y Programación Orientada a Objetos I
+  Monitoría en el Departamento de Ingeniería de Sistemas y Computación, Universidad de los Andes
+~ 2012-1, Algorítmica y Programación Orientada a Objetos II
+  Monitoría en el Departamento de Ingeniería de Sistemas y Computación, Universidad de los Andes
+
+Eventos
+~ 2015, Organizadora, 10CCC: Décimo Congreso Colombiano de Computación
+  Asistente, Apoyo Logístico
+
+Habilidades en Computación
+~ Python Nivel avanzando. Habilidades de manipulación de datos, transformación, análisis y visualización con librerías como matplotlib, numpy, pandas y scikit-learn para actividades de machine learning y optimización.
+~ C Nivel avanzando. Habilidades para manipulación de datos, transformación y análisis usando multi-threading.
+~ R Nivel intermedio. Habilidades para transformación, análisis y visualización.
+~ Java Nivel intermedio-avanzando. Habilidades genéricas de programación.
+~ SQL Nivel intermedio.
+~ GAMS Nivel intermedio.
+~ Latex Nivel Avanzado. Habilidades para presentación de reportes de tipo científico en distintos formatos. Habilidades con librerías para generación de diagramas científicos, como Tikz.
+~ Git Nivel Avanzado. Varios años de experiencia para trabajo en equipo.
+~ Ambiente Linux Nivel Avanzado. Usuaria durante los últimos cuatro años con OS como: Ubuntu, open SUSE, Debian y principalmente Arch Linux
+
+Intereses
+~ Profesionales: En general, las áreas comprendidas entre la Ingeniería de Sistemas y Computación, y las Matemáticas. Principalmente en Ciencia de Datos, con énfasis en algoritmos de Machine Learning. Gran interés por los Métodos Formales en Ingeniería de Sistemas.
+~ Otros: Gran interés y preocupación por la docencia en el país en temas de programación y pensamiento matemático.
+
+
