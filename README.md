@@ -1,3 +1,3 @@
 # Me
 
-Just about me!
+Repo for my resume
