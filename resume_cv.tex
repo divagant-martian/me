@@ -20,20 +20,41 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%-----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%-----------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+% Language Switch --------------------------------------------------------------
+
+\newif\ifen
+\newif\ifes
+
+\newcommand{\en}[1]{\ifen#1\fi}
+\newcommand{\es}[1]{\ifes#1\fi}
+
+\entrue % CURRENT LANGUAGE!
+
+%-------------------------------------------------------------------------------
+
+\documentclass[11pt, letterpaper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\usepackage{libertine}
+\DeclareRobustCommand\myLaTeX{%
+    L\kern-.3em%
+    \raisebox{.4ex}{\scshape a}\kern-.13em%
+    T\kern-.2em%
+    \raisebox{-.5ex}{E}\kern-.13em%
+    X%
+}
+\usepackage{makecell}
 \usepackage{multicol}
 \geometry{left=2cm, top=2cm, right=2cm, bottom=2cm, footskip=2cm} % Configure page margins with geometry
 
 \fontdir[fonts/] % Specify the location of the included fonts
 
 % Color for highlights
-\definecolor{awesome-purple}{HTML}{684B75} % Uncomment if you would like to specify your own color
-\definecolor{awesome-fish}{HTML}{FA8072}
-\colorlet{awesome}{awesome-fish} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\definecolor{picked}{HTML}{F70025} % ~red
+\colorlet{awesome}{picked}
+% Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 
 % Colors for text - uncomment and modify
 %\definecolor{darktext}{HTML}{414141}
@@ -44,53 +65,51 @@
 
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
 
-%-----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-----------------------------------------------------------------------------------
 
-\name{Diva}{Martínez Laverde}
-%% \address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+\name{Diva}{%
+    \es{Martínez Laverde}%
+    \en{Martinez-Laverde}%
+}
 
+% \address{where}
 \email{divma@protonmail.com}
-%\github{christianpoveda}
 \mobile{302-373-66-70}
+%\github{zombiefungus}
 %\skype{skypeid}
 %\stackoverflow{SOid}{SOname}
-%\twitter{@christian\_poved}
 %\linkedin{linkedin name}
 %\reddit{reddit account}
-%\xing{xing name}
 %\extrainfo{test} % Other text you want to include on this line
 
-\position{Ingeniera de Sistemas} % Your expertise/fields
-%% \quote{``Make the change that you want to see in the world."} % A quote or statement
+\position{\en{Software Engineer | Computer Scientist}\es{Ingeniera de Sistemas y Computación}
+} % Your expertise/fields
 
-\makecvfooter{\today}{Diva Martínez Laverde~~~·~~~Résumé}{\thepage}
+% \makecvfooter{\today}{Diva Martínez Laverde~~~·~~~Résumé}{\thepage}
 % Specify the letter footer with 3 arguments: (<left>, <center>, <right>),
 % leave any of these blank if they are not needed
 
-%-----------------------------------------------------------------------------------
-
+%-------------------------------------------------------------------------------
+\overfullrule=15pt
 \begin{document}
 
 \makecvheader % Print the header
 
-%-----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
-%-----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \input{cv-sections/education.tex}
 \input{cv-sections/experience.tex}
 %\input{cv-sections/publications.tex}
 \input{cv-sections/teaching.tex}
-
-\input{cv-sections/events.tex}
 \newpage
+% \es{\input{cv-sections/events.tex}}
 \input{cv-sections/programming.tex}
-\input{cv-sections/lenguajes.tex}
-\input{cv-sections/volunteering.tex}
-%-----------------------------------------------------------------------------------
+% \input{cv-sections/lenguajes.tex}
+% \input{cv-sections/volunteering.tex}
+%-------------------------------------------------------------------------------
 
 \end{document}
