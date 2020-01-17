@@ -418,11 +418,11 @@
   \newlength{\headertextwidth}
   \newlength{\headerphotowidth}
   \ifthenelse{\isundefined{\@photo}}{
-    \setlength{\headertextwidth}{0.98\columnwidth}
+    \setlength{\headertextwidth}{0.98\linewidth}
     \setlength{\headerphotowidth}{0cm}
   }{%
-    \setlength{\headertextwidth}{0.76\columnwidth}
-    \setlength{\headerphotowidth}{0.24\columnwidth}
+    \setlength{\headertextwidth}{0.76\linewidth}
+    \setlength{\headerphotowidth}{0.24\linewidth}
   }%
   \begin{minipage}[c]{\headerphotowidth}%
     \ifthenelse{\equal{\@photoalign}{left}}{\raggedright\drawphoto}{}
@@ -568,12 +568,12 @@
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{0.98\columnwidth}{@{\extracolsep{\fill}} L{0.98\columnwidth - 4.5cm} R{4.5cm}}
+  \begin{tabular*}{0.98\linewidth}{@{\extracolsep{\fill}} L{0.98\linewidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-    \multicolumn{2}{L{0.98\columnwidth}}{\descriptionstyle{#5}}
+    \multicolumn{2}{L{0.98\linewidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
 
@@ -588,7 +588,7 @@
 \newcommand*{\cvsubentry}[4]{%
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{0.98\columnwidth}{@{\extracolsep{\fill}} L{0.98\columnwidth - 4.5cm} R{4.5cm}}
+  \begin{tabular*}{0.98\linewidth}{@{\extracolsep{\fill}} L{0.98\linewidth - 4.5cm} R{4.5cm}}
     \setlength\leftskip{0.2cm}
     \subentrytitlestyle{#2} & \ifthenelse{\equal{#1}{}}
       {\subentrydatestyle{#3}}{}
@@ -608,7 +608,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{0.98\columnwidth}{@{\extracolsep{\fill}} C{1.5cm} L{0.98\columnwidth - 4.0cm} R{2.5cm}}
+    \begin{tabular*}{0.98\linewidth}{@{\extracolsep{\fill}} C{1.5cm} L{0.98\linewidth - 4.0cm} R{2.5cm}}
 }{%
     \end{tabular*}
   \end{center}
@@ -626,7 +626,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{0.98\columnwidth}{@{\extracolsep{\fill}} r | L{\columnwidth}}}{%
+    \begin{tabular*}{0.98\linewidth}{@{} r L{0.79\linewidth}}}{%
     \end{tabular*}
   \end{center}
 }
@@ -636,6 +636,9 @@
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
+\newcommand*{\cvkeyval}[2]{%
+  \hspace{1ex}\skilltypestyle{#1}\hspace{4ex}\skillsetstyle{#2}
+}
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
@@ -675,7 +678,7 @@
   \vspace{8.4mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{0.98\columnwidth}{@{\extracolsep{\fill}} L{0.98\columnwidth - 4.5cm} R{4.5cm}}
+  \begin{tabular*}{0.98\linewidth}{@{\extracolsep{\fill}} L{0.98\linewidth - 4.5cm} R{4.5cm}}
     \recipienttitlestyle{\@recipientname} & \letterdatestyle{\@letterdate}
   \end{tabular*}
   \begin{singlespace}
